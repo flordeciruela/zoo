@@ -1,11 +1,20 @@
 *{
 text-align: center;
+margin: 10px auto;
+}
+
+select{
+width: 200px;
+padding: 3px;
+box-shadow: 3px 3px 15px 1px #a7b9bd;
+border: none;
+border-radius: 5px;
 }
 
 .animal {
-	width: 300px;
-	height: 300px;
-	margin: 0;
+	width: 200px;
+	height: 200px;
+	box-shadow: 4px 4px 15px 3px #a7b9bd;
 }
 
 .blanco-negro{
