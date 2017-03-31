@@ -13,13 +13,13 @@ select.onchange = function(){
 			img[i].classList.remove("invertir-colores","sepia");
 
 		}else if (select.value == "invertir-colores") {
-				img[i].classList.add("invertir-colores");
-				img[i].classList.remove("blanco-negro","sepia");
+			img[i].classList.add("invertir-colores");
+			img[i].classList.remove("blanco-negro","sepia");
 
 		}else if (select.value == "sepia") {
-				img[i].classList.add("sepia");
-				img[i].classList.remove("blanco-negro","invertir-colores");
-				
+			img[i].classList.add("sepia");
+			img[i].classList.remove("blanco-negro","invertir-colores");
+
 		}
 	}
 
